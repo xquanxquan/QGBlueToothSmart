@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550C6B211D49C3B7003B5B77 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 550C6B201D49C3B7003B5B77 /* ViewController1.m */; };
+		554AA1CC1D522F890044910D /* view2.png in Resources */ = {isa = PBXBuildFile; fileRef = 554AA1CB1D522F890044910D /* view2.png */; };
+		556ADAC41D488C1300C4E6A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 556ADAC31D488C1300C4E6A3 /* main.m */; };
+		556ADAC71D488C1300C4E6A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 556ADAC61D488C1300C4E6A3 /* AppDelegate.m */; };
+		556ADACA1D488C1300C4E6A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556ADAC91D488C1300C4E6A3 /* ViewController.m */; };
+		556ADACD1D488C1300C4E6A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556ADACB1D488C1300C4E6A3 /* Main.storyboard */; };
+		556ADAD01D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 556ADACE1D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodeld */; };
+		556ADAD21D488C1300C4E6A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556ADAD11D488C1300C4E6A3 /* Assets.xcassets */; };
+		556ADAD51D488C1300C4E6A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556ADAD31D488C1300C4E6A3 /* LaunchScreen.storyboard */; };
+		556ADAE01D488C1300C4E6A3 /* QGSmartBlueToothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 556ADADF1D488C1300C4E6A3 /* QGSmartBlueToothTests.m */; };
+		556ADAEB1D488C1300C4E6A3 /* QGSmartBlueToothUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 556ADAEA1D488C1300C4E6A3 /* QGSmartBlueToothUITests.m */; };
+		558ABF131D507890009154BA /* SportMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558ABF121D507890009154BA /* SportMainController.m */; };
+		558ABF151D508F3C009154BA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558ABF141D508F3C009154BA /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		556ADADC1D488C1300C4E6A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556ADAB71D488C1300C4E6A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556ADABE1D488C1300C4E6A3;
+			remoteInfo = QGSmartBlueTooth;
+		};
+		556ADAE71D488C1300C4E6A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556ADAB71D488C1300C4E6A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556ADABE1D488C1300C4E6A3;
+			remoteInfo = QGSmartBlueTooth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		550C6B1F1D49C3B7003B5B77 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		550C6B201D49C3B7003B5B77 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		554AA1CB1D522F890044910D /* view2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = view2.png; path = ../view2.png; sourceTree = "<group>"; };
+		556ADABF1D488C1300C4E6A3 /* QGSmartBlueTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QGSmartBlueTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		556ADAC31D488C1300C4E6A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		556ADAC51D488C1300C4E6A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = QGSmartBlueTooth/AppDelegate.h; sourceTree = "<group>"; };
+		556ADAC61D488C1300C4E6A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = QGSmartBlueTooth/AppDelegate.m; sourceTree = "<group>"; };
+		556ADAC81D488C1300C4E6A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = QGSmartBlueTooth/ViewController.h; sourceTree = "<group>"; };
+		556ADAC91D488C1300C4E6A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = QGSmartBlueTooth/ViewController.m; sourceTree = "<group>"; };
+		556ADACC1D488C1300C4E6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		556ADACF1D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QGSmartBlueTooth.xcdatamodel; sourceTree = "<group>"; };
+		556ADAD11D488C1300C4E6A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		556ADAD41D488C1300C4E6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		556ADAD61D488C1300C4E6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556ADADB1D488C1300C4E6A3 /* QGSmartBlueToothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QGSmartBlueToothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		556ADADF1D488C1300C4E6A3 /* QGSmartBlueToothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGSmartBlueToothTests.m; sourceTree = "<group>"; };
+		556ADAE11D488C1300C4E6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556ADAE61D488C1300C4E6A3 /* QGSmartBlueToothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QGSmartBlueToothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		556ADAEA1D488C1300C4E6A3 /* QGSmartBlueToothUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGSmartBlueToothUITests.m; sourceTree = "<group>"; };
+		556ADAEC1D488C1300C4E6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558ABF111D507890009154BA /* SportMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportMainController.h; sourceTree = "<group>"; };
+		558ABF121D507890009154BA /* SportMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportMainController.m; sourceTree = "<group>"; };
+		558ABF141D508F3C009154BA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		556ADABC1D488C1300C4E6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558ABF151D508F3C009154BA /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556ADAD81D488C1300C4E6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556ADAE31D488C1300C4E6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		554AA1CD1D522F960044910D /* image */ = {
+			isa = PBXGroup;
+			children = (
+				554AA1CB1D522F890044910D /* view2.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		556ADAB61D488C1300C4E6A3 = {
+			isa = PBXGroup;
+			children = (
+				558ABF141D508F3C009154BA /* CoreBluetooth.framework */,
+				556ADAC11D488C1300C4E6A3 /* QGSmartBlueTooth */,
+				556ADADE1D488C1300C4E6A3 /* QGSmartBlueToothTests */,
+				556ADAE91D488C1300C4E6A3 /* QGSmartBlueToothUITests */,
+				556ADAC01D488C1300C4E6A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		556ADAC01D488C1300C4E6A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				556ADABF1D488C1300C4E6A3 /* QGSmartBlueTooth.app */,
+				556ADADB1D488C1300C4E6A3 /* QGSmartBlueToothTests.xctest */,
+				556ADAE61D488C1300C4E6A3 /* QGSmartBlueToothUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		556ADAC11D488C1300C4E6A3 /* QGSmartBlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				554AA1CD1D522F960044910D /* image */,
+				556ADB001D488CBF00C4E6A3 /* Classes */,
+				556ADAD11D488C1300C4E6A3 /* Assets.xcassets */,
+				556ADACE1D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodeld */,
+				556ADAC21D488C1300C4E6A3 /* Supporting Files */,
+			);
+			path = QGSmartBlueTooth;
+			sourceTree = "<group>";
+		};
+		556ADAC21D488C1300C4E6A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				556ADAD61D488C1300C4E6A3 /* Info.plist */,
+				556ADAD31D488C1300C4E6A3 /* LaunchScreen.storyboard */,
+				556ADAC31D488C1300C4E6A3 /* main.m */,
+				556ADACB1D488C1300C4E6A3 /* Main.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		556ADADE1D488C1300C4E6A3 /* QGSmartBlueToothTests */ = {
+			isa = PBXGroup;
+			children = (
+				556ADADF1D488C1300C4E6A3 /* QGSmartBlueToothTests.m */,
+				556ADAE11D488C1300C4E6A3 /* Info.plist */,
+			);
+			path = QGSmartBlueToothTests;
+			sourceTree = "<group>";
+		};
+		556ADAE91D488C1300C4E6A3 /* QGSmartBlueToothUITests */ = {
+			isa = PBXGroup;
+			children = (
+				556ADAEA1D488C1300C4E6A3 /* QGSmartBlueToothUITests.m */,
+				556ADAEC1D488C1300C4E6A3 /* Info.plist */,
+			);
+			path = QGSmartBlueToothUITests;
+			sourceTree = "<group>";
+		};
+		556ADAF81D488C2300C4E6A3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5599D6D51D4C7C66009A6B62 /* part1 */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		556ADAF91D488C3600C4E6A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		556ADAFA1D488C3C00C4E6A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				556ADAC81D488C1300C4E6A3 /* ViewController.h */,
+				556ADAC91D488C1300C4E6A3 /* ViewController.m */,
+				550C6B1F1D49C3B7003B5B77 /* ViewController1.h */,
+				550C6B201D49C3B7003B5B77 /* ViewController1.m */,
+				558ABF111D507890009154BA /* SportMainController.h */,
+				558ABF121D507890009154BA /* SportMainController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		556ADAFB1D488C6200C4E6A3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		556ADAFC1D488C7400C4E6A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		556ADAFD1D488C7B00C4E6A3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		556ADAFE1D488C8400C4E6A3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		556ADAFF1D488C8C00C4E6A3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				556ADAC51D488C1300C4E6A3 /* AppDelegate.h */,
+				556ADAC61D488C1300C4E6A3 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		556ADB001D488CBF00C4E6A3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				556ADAFF1D488C8C00C4E6A3 /* Other */,
+				556ADAFE1D488C8400C4E6A3 /* Utility */,
+				556ADAFD1D488C7B00C4E6A3 /* Tool */,
+				556ADAFC1D488C7400C4E6A3 /* Model */,
+				556ADAFB1D488C6200C4E6A3 /* Category */,
+				556ADAF81D488C2300C4E6A3 /* Manager */,
+			);
+			name = Classes;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5599D6D51D4C7C66009A6B62 /* part1 */ = {
+			isa = PBXGroup;
+			children = (
+				556ADAF91D488C3600C4E6A3 /* View */,
+				556ADAFA1D488C3C00C4E6A3 /* Controller */,
+			);
+			name = part1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		556ADABE1D488C1300C4E6A3 /* QGSmartBlueTooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556ADAEF1D488C1300C4E6A3 /* Build configuration list for PBXNativeTarget "QGSmartBlueTooth" */;
+			buildPhases = (
+				556ADABB1D488C1300C4E6A3 /* Sources */,
+				556ADABC1D488C1300C4E6A3 /* Frameworks */,
+				556ADABD1D488C1300C4E6A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QGSmartBlueTooth;
+			productName = QGSmartBlueTooth;
+			productReference = 556ADABF1D488C1300C4E6A3 /* QGSmartBlueTooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		556ADADA1D488C1300C4E6A3 /* QGSmartBlueToothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556ADAF21D488C1300C4E6A3 /* Build configuration list for PBXNativeTarget "QGSmartBlueToothTests" */;
+			buildPhases = (
+				556ADAD71D488C1300C4E6A3 /* Sources */,
+				556ADAD81D488C1300C4E6A3 /* Frameworks */,
+				556ADAD91D488C1300C4E6A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				556ADADD1D488C1300C4E6A3 /* PBXTargetDependency */,
+			);
+			name = QGSmartBlueToothTests;
+			productName = QGSmartBlueToothTests;
+			productReference = 556ADADB1D488C1300C4E6A3 /* QGSmartBlueToothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		556ADAE51D488C1300C4E6A3 /* QGSmartBlueToothUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556ADAF51D488C1300C4E6A3 /* Build configuration list for PBXNativeTarget "QGSmartBlueToothUITests" */;
+			buildPhases = (
+				556ADAE21D488C1300C4E6A3 /* Sources */,
+				556ADAE31D488C1300C4E6A3 /* Frameworks */,
+				556ADAE41D488C1300C4E6A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				556ADAE81D488C1300C4E6A3 /* PBXTargetDependency */,
+			);
+			name = QGSmartBlueToothUITests;
+			productName = QGSmartBlueToothUITests;
+			productReference = 556ADAE61D488C1300C4E6A3 /* QGSmartBlueToothUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		556ADAB71D488C1300C4E6A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "com.gxqhaoren@tom.www";
+				TargetAttributes = {
+					556ADABE1D488C1300C4E6A3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 42J3LTA9CQ;
+					};
+					556ADADA1D488C1300C4E6A3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 42J3LTA9CQ;
+						TestTargetID = 556ADABE1D488C1300C4E6A3;
+					};
+					556ADAE51D488C1300C4E6A3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 42J3LTA9CQ;
+						TestTargetID = 556ADABE1D488C1300C4E6A3;
+					};
+				};
+			};
+			buildConfigurationList = 556ADABA1D488C1300C4E6A3 /* Build configuration list for PBXProject "QGSmartBlueTooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 556ADAB61D488C1300C4E6A3;
+			productRefGroup = 556ADAC01D488C1300C4E6A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				556ADABE1D488C1300C4E6A3 /* QGSmartBlueTooth */,
+				556ADADA1D488C1300C4E6A3 /* QGSmartBlueToothTests */,
+				556ADAE51D488C1300C4E6A3 /* QGSmartBlueToothUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		556ADABD1D488C1300C4E6A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556ADAD51D488C1300C4E6A3 /* LaunchScreen.storyboard in Resources */,
+				554AA1CC1D522F890044910D /* view2.png in Resources */,
+				556ADAD21D488C1300C4E6A3 /* Assets.xcassets in Resources */,
+				556ADACD1D488C1300C4E6A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556ADAD91D488C1300C4E6A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556ADAE41D488C1300C4E6A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		556ADABB1D488C1300C4E6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550C6B211D49C3B7003B5B77 /* ViewController1.m in Sources */,
+				556ADACA1D488C1300C4E6A3 /* ViewController.m in Sources */,
+				556ADAC71D488C1300C4E6A3 /* AppDelegate.m in Sources */,
+				556ADAD01D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodeld in Sources */,
+				556ADAC41D488C1300C4E6A3 /* main.m in Sources */,
+				558ABF131D507890009154BA /* SportMainController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556ADAD71D488C1300C4E6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556ADAE01D488C1300C4E6A3 /* QGSmartBlueToothTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556ADAE21D488C1300C4E6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556ADAEB1D488C1300C4E6A3 /* QGSmartBlueToothUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		556ADADD1D488C1300C4E6A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 556ADABE1D488C1300C4E6A3 /* QGSmartBlueTooth */;
+			targetProxy = 556ADADC1D488C1300C4E6A3 /* PBXContainerItemProxy */;
+		};
+		556ADAE81D488C1300C4E6A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 556ADABE1D488C1300C4E6A3 /* QGSmartBlueTooth */;
+			targetProxy = 556ADAE71D488C1300C4E6A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		556ADACB1D488C1300C4E6A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556ADACC1D488C1300C4E6A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		556ADAD31D488C1300C4E6A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556ADAD41D488C1300C4E6A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		556ADAED1D488C1300C4E6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		556ADAEE1D488C1300C4E6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		556ADAF01D488C1300C4E6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QGSmartBlueTooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xquanxquan.QGSmartBlueTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		556ADAF11D488C1300C4E6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QGSmartBlueTooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xquanxquan.QGSmartBlueTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		556ADAF31D488C1300C4E6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QGSmartBlueToothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xquanxquan.QGSmartBlueToothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QGSmartBlueTooth.app/QGSmartBlueTooth";
+			};
+			name = Debug;
+		};
+		556ADAF41D488C1300C4E6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QGSmartBlueToothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xquanxquan.QGSmartBlueToothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QGSmartBlueTooth.app/QGSmartBlueTooth";
+			};
+			name = Release;
+		};
+		556ADAF61D488C1300C4E6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QGSmartBlueToothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xquanxquan.QGSmartBlueToothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QGSmartBlueTooth;
+			};
+			name = Debug;
+		};
+		556ADAF71D488C1300C4E6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QGSmartBlueToothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xquanxquan.QGSmartBlueToothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QGSmartBlueTooth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		556ADABA1D488C1300C4E6A3 /* Build configuration list for PBXProject "QGSmartBlueTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556ADAED1D488C1300C4E6A3 /* Debug */,
+				556ADAEE1D488C1300C4E6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556ADAEF1D488C1300C4E6A3 /* Build configuration list for PBXNativeTarget "QGSmartBlueTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556ADAF01D488C1300C4E6A3 /* Debug */,
+				556ADAF11D488C1300C4E6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556ADAF21D488C1300C4E6A3 /* Build configuration list for PBXNativeTarget "QGSmartBlueToothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556ADAF31D488C1300C4E6A3 /* Debug */,
+				556ADAF41D488C1300C4E6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556ADAF51D488C1300C4E6A3 /* Build configuration list for PBXNativeTarget "QGSmartBlueToothUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556ADAF61D488C1300C4E6A3 /* Debug */,
+				556ADAF71D488C1300C4E6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		556ADACE1D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				556ADACF1D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodel */,
+			);
+			currentVersion = 556ADACF1D488C1300C4E6A3 /* QGSmartBlueTooth.xcdatamodel */;
+			path = QGSmartBlueTooth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 556ADAB71D488C1300C4E6A3 /* Project object */;
+}
